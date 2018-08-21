@@ -1,0 +1,2 @@
+# Require webtrekk
+git "https://github.com/Webtrekk/webtrekk-ios-sdk" "HEAD"
