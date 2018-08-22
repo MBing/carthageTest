@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A0B933F212C5522004F041D /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B933D212C5522004F041D /* Reachability.framework */; };
-		5A0B9340212C5522004F041D /* Webtrekk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B933E212C5522004F041D /* Webtrekk.framework */; };
-		5A0B9342212C5537004F041D /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B9341212C5537004F041D /* Reachability.framework */; };
-		5A0B9345212C5543004F041D /* Webtrekk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B9343212C5543004F041D /* Webtrekk.framework */; };
-		5A0B934C212C5703004F041D /* Webtrekk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B9347212C5548004F041D /* Webtrekk.framework */; };
-		5A0B934E212C5703004F041D /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B9344212C5543004F041D /* Reachability.framework */; };
-		5A0B9352212C5703004F041D /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B933D212C5522004F041D /* Reachability.framework */; };
-		5A0B9353212C5703004F041D /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B933D212C5522004F041D /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5A0B9356212C5703004F041D /* Webtrekk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B933E212C5522004F041D /* Webtrekk.framework */; };
-		5A0B9357212C5703004F041D /* Webtrekk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B933E212C5522004F041D /* Webtrekk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5A0B9359212C5754004F041D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AEA172069525600ED92F3 /* Main.storyboard */; };
-		5A0B935A212C576A004F041D /* webtrekk_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5A22C1BB212C4227005D4BDE /* webtrekk_config.xml */; };
 		5A6AEA142069525600ED92F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AEA132069525600ED92F3 /* AppDelegate.swift */; };
 		5A6AEA162069525600ED92F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AEA152069525600ED92F3 /* ViewController.swift */; };
 		5A6AEA292069525600ED92F3 /* CartTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AEA282069525600ED92F3 /* CartTestTests.swift */; };
+		5A6BF75A212DBD200072A6C5 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6BF749212DB9CC0072A6C5 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A6BF75C212DBD200072A6C5 /* Webtrekk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6BF74A212DB9CC0072A6C5 /* Webtrekk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A6BF75E212DBD710072A6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AEA172069525600ED92F3 /* Main.storyboard */; };
+		5A6BF75F212DBD880072A6C5 /* webtrekk_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5A22C1BB212C4227005D4BDE /* webtrekk_config.xml */; };
+		5A6BF767212DBE410072A6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BF766212DBE410072A6C5 /* AppDelegate.swift */; };
+		5A6BF769212DBE410072A6C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BF768212DBE410072A6C5 /* ViewController.swift */; };
+		5A6BF76C212DBE410072A6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BF76A212DBE410072A6C5 /* Main.storyboard */; };
+		5A6BF76E212DBE430072A6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BF76D212DBE430072A6C5 /* Assets.xcassets */; };
+		5A6BF779212DBE430072A6C5 /* CartTestTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BF778212DBE430072A6C5 /* CartTestTVTests.swift */; };
+		5A6BF782212DC0340072A6C5 /* webtrekknet.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BF781212DC0340072A6C5 /* webtrekknet.cer */; };
+		5A6BF783212DC0340072A6C5 /* webtrekknet.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BF781212DC0340072A6C5 /* webtrekknet.cer */; };
+		5A6BF78A212DC11E0072A6C5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BF788212DC11E0072A6C5 /* Interface.storyboard */; };
+		5A6BF78C212DC1200072A6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BF78B212DC1200072A6C5 /* Assets.xcassets */; };
+		5A6BF793212DC1200072A6C5 /* CartTestWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A6BF792212DC1200072A6C5 /* CartTestWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A6BF798212DC1200072A6C5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BF797212DC1200072A6C5 /* InterfaceController.swift */; };
+		5A6BF79A212DC1200072A6C5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BF799212DC1200072A6C5 /* ExtensionDelegate.swift */; };
+		5A6BF79C212DC1200072A6C5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6BF79B212DC1200072A6C5 /* NotificationController.swift */; };
+		5A6BF79E212DC1200072A6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BF79D212DC1200072A6C5 /* Assets.xcassets */; };
+		5A6BF7A3212DC1200072A6C5 /* CartTestWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5A6BF786212DC11E0072A6C5 /* CartTestWatch.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,30 +39,67 @@
 			remoteGlobalIDString = 5A6AEA0F2069525600ED92F3;
 			remoteInfo = CartTest;
 		};
+		5A6BF775212DBE430072A6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6AEA082069525600ED92F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6BF763212DBE410072A6C5;
+			remoteInfo = CartTestTV;
+		};
+		5A6BF794212DC1200072A6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6AEA082069525600ED92F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6BF791212DC1200072A6C5;
+			remoteInfo = "CartTestWatch Extension";
+		};
+		5A6BF7A1212DC1200072A6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6AEA082069525600ED92F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6BF785212DC11E0072A6C5;
+			remoteInfo = CartTestWatch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5A0B9358212C5703004F041D /* Embed Frameworks */ = {
+		5A6BF75D212DBD200072A6C5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A0B9357212C5703004F041D /* Webtrekk.framework in Embed Frameworks */,
-				5A0B9353212C5703004F041D /* Reachability.framework in Embed Frameworks */,
+				5A6BF75A212DBD200072A6C5 /* Reachability.framework in Embed Frameworks */,
+				5A6BF75C212DBD200072A6C5 /* Webtrekk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF7A7212DC1200072A6C5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A6BF793212DC1200072A6C5 /* CartTestWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF7AB212DC1200072A6C5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5A6BF7A3212DC1200072A6C5 /* CartTestWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A0B933D212C5522004F041D /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
-		5A0B933E212C5522004F041D /* Webtrekk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Webtrekk.framework; path = Carthage/Build/iOS/Webtrekk.framework; sourceTree = "<group>"; };
-		5A0B9341212C5537004F041D /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/Mac/Reachability.framework; sourceTree = "<group>"; };
-		5A0B9343212C5543004F041D /* Webtrekk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Webtrekk.framework; path = Carthage/Build/tvOS/Webtrekk.framework; sourceTree = "<group>"; };
-		5A0B9344212C5543004F041D /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/tvOS/Reachability.framework; sourceTree = "<group>"; };
-		5A0B9347212C5548004F041D /* Webtrekk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Webtrekk.framework; path = Carthage/Build/watchOS/Webtrekk.framework; sourceTree = "<group>"; };
 		5A22C1BB212C4227005D4BDE /* webtrekk_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = webtrekk_config.xml; path = CartTest/webtrekk_config.xml; sourceTree = "<group>"; };
 		5A6AEA102069525600ED92F3 /* CartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6AEA132069525600ED92F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +111,29 @@
 		5A6AEA242069525600ED92F3 /* CartTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6AEA282069525600ED92F3 /* CartTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTestTests.swift; sourceTree = "<group>"; };
 		5A6AEA2A2069525600ED92F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6BF749212DB9CC0072A6C5 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		5A6BF74A212DB9CC0072A6C5 /* Webtrekk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Webtrekk.framework; path = Carthage/Build/iOS/Webtrekk.framework; sourceTree = "<group>"; };
+		5A6BF764212DBE410072A6C5 /* CartTestTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartTestTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6BF766212DBE410072A6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A6BF768212DBE410072A6C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A6BF76B212DBE410072A6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A6BF76D212DBE430072A6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6BF76F212DBE430072A6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6BF774212DBE430072A6C5 /* CartTestTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartTestTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6BF778212DBE430072A6C5 /* CartTestTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTestTVTests.swift; sourceTree = "<group>"; };
+		5A6BF77A212DBE430072A6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6BF781212DC0340072A6C5 /* webtrekknet.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = webtrekknet.cer; sourceTree = "<group>"; };
+		5A6BF786212DC11E0072A6C5 /* CartTestWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartTestWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6BF789212DC11E0072A6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5A6BF78B212DC1200072A6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6BF78D212DC1200072A6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6BF792212DC1200072A6C5 /* CartTestWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CartTestWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6BF797212DC1200072A6C5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5A6BF799212DC1200072A6C5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5A6BF79B212DC1200072A6C5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5A6BF79D212DC1200072A6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6BF79F212DC1200072A6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6BF7A0212DC1200072A6C5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,18 +141,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0B933F212C5522004F041D /* Reachability.framework in Frameworks */,
-				5A0B9340212C5522004F041D /* Webtrekk.framework in Frameworks */,
-				5A0B9342212C5537004F041D /* Reachability.framework in Frameworks */,
-				5A0B934E212C5703004F041D /* Reachability.framework in Frameworks */,
-				5A0B9345212C5543004F041D /* Webtrekk.framework in Frameworks */,
-				5A0B9352212C5703004F041D /* Reachability.framework in Frameworks */,
-				5A0B9356212C5703004F041D /* Webtrekk.framework in Frameworks */,
-				5A0B934C212C5703004F041D /* Webtrekk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5A6AEA212069525600ED92F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF761212DBE410072A6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF771212DBE430072A6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF78F212DC1200072A6C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,8 +179,13 @@
 			isa = PBXGroup;
 			children = (
 				5A22C1BB212C4227005D4BDE /* webtrekk_config.xml */,
+				5A6BF781212DC0340072A6C5 /* webtrekknet.cer */,
 				5A6AEA122069525600ED92F3 /* CartTest */,
 				5A6AEA272069525600ED92F3 /* CartTestTests */,
+				5A6BF765212DBE410072A6C5 /* CartTestTV */,
+				5A6BF777212DBE430072A6C5 /* CartTestTVTests */,
+				5A6BF787212DC11E0072A6C5 /* CartTestWatch */,
+				5A6BF796212DC1200072A6C5 /* CartTestWatch Extension */,
 				5A6AEA112069525600ED92F3 /* Products */,
 				5AA1B47220873BEF0039E7C3 /* Frameworks */,
 			);
@@ -111,6 +196,10 @@
 			children = (
 				5A6AEA102069525600ED92F3 /* CartTest.app */,
 				5A6AEA242069525600ED92F3 /* CartTestTests.xctest */,
+				5A6BF764212DBE410072A6C5 /* CartTestTV.app */,
+				5A6BF774212DBE430072A6C5 /* CartTestTVTests.xctest */,
+				5A6BF786212DC11E0072A6C5 /* CartTestWatch.app */,
+				5A6BF792212DC1200072A6C5 /* CartTestWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,15 +226,55 @@
 			path = CartTestTests;
 			sourceTree = "<group>";
 		};
+		5A6BF765212DBE410072A6C5 /* CartTestTV */ = {
+			isa = PBXGroup;
+			children = (
+				5A6BF766212DBE410072A6C5 /* AppDelegate.swift */,
+				5A6BF768212DBE410072A6C5 /* ViewController.swift */,
+				5A6BF76A212DBE410072A6C5 /* Main.storyboard */,
+				5A6BF76D212DBE430072A6C5 /* Assets.xcassets */,
+				5A6BF76F212DBE430072A6C5 /* Info.plist */,
+			);
+			path = CartTestTV;
+			sourceTree = "<group>";
+		};
+		5A6BF777212DBE430072A6C5 /* CartTestTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6BF778212DBE430072A6C5 /* CartTestTVTests.swift */,
+				5A6BF77A212DBE430072A6C5 /* Info.plist */,
+			);
+			path = CartTestTVTests;
+			sourceTree = "<group>";
+		};
+		5A6BF787212DC11E0072A6C5 /* CartTestWatch */ = {
+			isa = PBXGroup;
+			children = (
+				5A6BF788212DC11E0072A6C5 /* Interface.storyboard */,
+				5A6BF78B212DC1200072A6C5 /* Assets.xcassets */,
+				5A6BF78D212DC1200072A6C5 /* Info.plist */,
+			);
+			path = CartTestWatch;
+			sourceTree = "<group>";
+		};
+		5A6BF796212DC1200072A6C5 /* CartTestWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A6BF797212DC1200072A6C5 /* InterfaceController.swift */,
+				5A6BF799212DC1200072A6C5 /* ExtensionDelegate.swift */,
+				5A6BF79B212DC1200072A6C5 /* NotificationController.swift */,
+				5A6BF79D212DC1200072A6C5 /* Assets.xcassets */,
+				5A6BF79F212DC1200072A6C5 /* Info.plist */,
+				5A6BF7A0212DC1200072A6C5 /* PushNotificationPayload.apns */,
+			);
+			path = "CartTestWatch Extension";
+			sourceTree = "<group>";
+		};
 		5AA1B47220873BEF0039E7C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A0B9347212C5548004F041D /* Webtrekk.framework */,
-				5A0B9344212C5543004F041D /* Reachability.framework */,
-				5A0B9343212C5543004F041D /* Webtrekk.framework */,
-				5A0B933D212C5522004F041D /* Reachability.framework */,
-				5A0B9341212C5537004F041D /* Reachability.framework */,
-				5A0B933E212C5522004F041D /* Webtrekk.framework */,
+				5A6BF749212DB9CC0072A6C5 /* Reachability.framework */,
+				5A6BF74A212DB9CC0072A6C5 /* Webtrekk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,11 +289,13 @@
 				5A6AEA0C2069525600ED92F3 /* Sources */,
 				5A6AEA0D2069525600ED92F3 /* Frameworks */,
 				5A6AEA0E2069525600ED92F3 /* Resources */,
-				5A0B9358212C5703004F041D /* Embed Frameworks */,
+				5A6BF75D212DBD200072A6C5 /* Embed Frameworks */,
+				5A6BF7AB212DC1200072A6C5 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5A6BF7A2212DC1200072A6C5 /* PBXTargetDependency */,
 			);
 			name = CartTest;
 			productName = CartTest;
@@ -189,13 +320,82 @@
 			productReference = 5A6AEA242069525600ED92F3 /* CartTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5A6BF763212DBE410072A6C5 /* CartTestTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6BF77B212DBE430072A6C5 /* Build configuration list for PBXNativeTarget "CartTestTV" */;
+			buildPhases = (
+				5A6BF760212DBE410072A6C5 /* Sources */,
+				5A6BF761212DBE410072A6C5 /* Frameworks */,
+				5A6BF762212DBE410072A6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CartTestTV;
+			productName = CartTestTV;
+			productReference = 5A6BF764212DBE410072A6C5 /* CartTestTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A6BF773212DBE430072A6C5 /* CartTestTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6BF77E212DBE430072A6C5 /* Build configuration list for PBXNativeTarget "CartTestTVTests" */;
+			buildPhases = (
+				5A6BF770212DBE430072A6C5 /* Sources */,
+				5A6BF771212DBE430072A6C5 /* Frameworks */,
+				5A6BF772212DBE430072A6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6BF776212DBE430072A6C5 /* PBXTargetDependency */,
+			);
+			name = CartTestTVTests;
+			productName = CartTestTVTests;
+			productReference = 5A6BF774212DBE430072A6C5 /* CartTestTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A6BF785212DC11E0072A6C5 /* CartTestWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6BF7A8212DC1200072A6C5 /* Build configuration list for PBXNativeTarget "CartTestWatch" */;
+			buildPhases = (
+				5A6BF784212DC11E0072A6C5 /* Resources */,
+				5A6BF7A7212DC1200072A6C5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6BF795212DC1200072A6C5 /* PBXTargetDependency */,
+			);
+			name = CartTestWatch;
+			productName = CartTestWatch;
+			productReference = 5A6BF786212DC11E0072A6C5 /* CartTestWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5A6BF791212DC1200072A6C5 /* CartTestWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6BF7A4212DC1200072A6C5 /* Build configuration list for PBXNativeTarget "CartTestWatch Extension" */;
+			buildPhases = (
+				5A6BF78E212DC1200072A6C5 /* Sources */,
+				5A6BF78F212DC1200072A6C5 /* Frameworks */,
+				5A6BF790212DC1200072A6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CartTestWatch Extension";
+			productName = "CartTestWatch Extension";
+			productReference = 5A6BF792212DC1200072A6C5 /* CartTestWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5A6AEA082069525600ED92F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Martin Demiddel";
 				TargetAttributes = {
@@ -207,6 +407,23 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5A6AEA0F2069525600ED92F3;
+					};
+					5A6BF763212DBE410072A6C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					5A6BF773212DBE430072A6C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A6BF763212DBE410072A6C5;
+					};
+					5A6BF785212DC11E0072A6C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					5A6BF791212DC1200072A6C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -225,6 +442,10 @@
 			targets = (
 				5A6AEA0F2069525600ED92F3 /* CartTest */,
 				5A6AEA232069525600ED92F3 /* CartTestTests */,
+				5A6BF763212DBE410072A6C5 /* CartTestTV */,
+				5A6BF773212DBE430072A6C5 /* CartTestTVTests */,
+				5A6BF785212DC11E0072A6C5 /* CartTestWatch */,
+				5A6BF791212DC1200072A6C5 /* CartTestWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -234,8 +455,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0B935A212C576A004F041D /* webtrekk_config.xml in Resources */,
-				5A0B9359212C5754004F041D /* Main.storyboard in Resources */,
+				5A6BF75F212DBD880072A6C5 /* webtrekk_config.xml in Resources */,
+				5A6BF75E212DBD710072A6C5 /* Main.storyboard in Resources */,
+				5A6BF782212DC0340072A6C5 /* webtrekknet.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +465,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF762212DBE410072A6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6BF76E212DBE430072A6C5 /* Assets.xcassets in Resources */,
+				5A6BF76C212DBE410072A6C5 /* Main.storyboard in Resources */,
+				5A6BF783212DC0340072A6C5 /* webtrekknet.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF772212DBE430072A6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF784212DC11E0072A6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6BF78C212DC1200072A6C5 /* Assets.xcassets in Resources */,
+				5A6BF78A212DC11E0072A6C5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF790212DC1200072A6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6BF79E212DC1200072A6C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +522,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A6BF760212DBE410072A6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6BF769212DBE410072A6C5 /* ViewController.swift in Sources */,
+				5A6BF767212DBE410072A6C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF770212DBE430072A6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6BF779212DBE430072A6C5 /* CartTestTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6BF78E212DC1200072A6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6BF79C212DC1200072A6C5 /* NotificationController.swift in Sources */,
+				5A6BF79A212DC1200072A6C5 /* ExtensionDelegate.swift in Sources */,
+				5A6BF798212DC1200072A6C5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,6 +556,21 @@
 			isa = PBXTargetDependency;
 			target = 5A6AEA0F2069525600ED92F3 /* CartTest */;
 			targetProxy = 5A6AEA252069525600ED92F3 /* PBXContainerItemProxy */;
+		};
+		5A6BF776212DBE430072A6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6BF763212DBE410072A6C5 /* CartTestTV */;
+			targetProxy = 5A6BF775212DBE430072A6C5 /* PBXContainerItemProxy */;
+		};
+		5A6BF795212DC1200072A6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6BF791212DC1200072A6C5 /* CartTestWatch Extension */;
+			targetProxy = 5A6BF794212DC1200072A6C5 /* PBXContainerItemProxy */;
+		};
+		5A6BF7A2212DC1200072A6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6BF785212DC11E0072A6C5 /* CartTestWatch */;
+			targetProxy = 5A6BF7A1212DC1200072A6C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -291,6 +589,22 @@
 				5A6AEA1D2069525600ED92F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5A6BF76A212DBE410072A6C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6BF76B212DBE410072A6C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A6BF788212DC11E0072A6C5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6BF789212DC11E0072A6C5 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -489,6 +803,178 @@
 			};
 			name = Release;
 		};
+		5A6BF77C212DBE430072A6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				INFOPLIST_FILE = CartTestTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTestTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		5A6BF77D212DBE430072A6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				INFOPLIST_FILE = CartTestTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTestTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		5A6BF77F212DBE430072A6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				INFOPLIST_FILE = CartTestTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTestTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartTestTV.app/CartTestTV";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		5A6BF780212DBE430072A6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				INFOPLIST_FILE = CartTestTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTestTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartTestTV.app/CartTestTV";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		5A6BF7A5212DC1200072A6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				INFOPLIST_FILE = "CartTestWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		5A6BF7A6212DC1200072A6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				INFOPLIST_FILE = "CartTestWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		5A6BF7A9212DC1200072A6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				IBSC_MODULE = CartTestWatch_Extension;
+				INFOPLIST_FILE = CartTestWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		5A6BF7AA212DC1200072A6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
+				IBSC_MODULE = CartTestWatch_Extension;
+				INFOPLIST_FILE = CartTestWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.CartTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -515,6 +1001,42 @@
 			buildConfigurations = (
 				5A6AEA312069525600ED92F3 /* Debug */,
 				5A6AEA322069525600ED92F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6BF77B212DBE430072A6C5 /* Build configuration list for PBXNativeTarget "CartTestTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6BF77C212DBE430072A6C5 /* Debug */,
+				5A6BF77D212DBE430072A6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6BF77E212DBE430072A6C5 /* Build configuration list for PBXNativeTarget "CartTestTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6BF77F212DBE430072A6C5 /* Debug */,
+				5A6BF780212DBE430072A6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6BF7A4212DC1200072A6C5 /* Build configuration list for PBXNativeTarget "CartTestWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6BF7A5212DC1200072A6C5 /* Debug */,
+				5A6BF7A6212DC1200072A6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6BF7A8212DC1200072A6C5 /* Build configuration list for PBXNativeTarget "CartTestWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6BF7A9212DC1200072A6C5 /* Debug */,
+				5A6BF7AA212DC1200072A6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
